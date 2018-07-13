@@ -20,6 +20,8 @@
 #include "brain/supg/SUPGGenomeManager.h"
 #include "brain/Helper.h"
 
+#include <boost/make_shared.hpp>
+
 #include <revolve/gazebo/motors/Motor.h>
 #include <revolve/gazebo/sensors/VirtualSensor.h>
 #include <brain/learner/HyperAccNEATLearner_CPGController.h>
